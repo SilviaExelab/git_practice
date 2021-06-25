@@ -1,0 +1,62 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-family: Montserrat;
+  color: #303030;
+}
+
+/* HEADER CSS */
+
+header {
+  padding: 11px 24px;
+  border-bottom: 1px solid #EFEFEF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  width: 98%;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo-image {
+  height: 42px;
+}
+
+.text-grey {
+  font-weight: normal;
+  color: grey;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  padding-right: 16px;
+  list-style-type: none;
+}
+
+
+/* HERO SECTION CSS */
+
+.hero-section {
+  margin-top: 64px;
+  padding: 32px 24px;
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: center;
+}
+
+.hero-section img {
+  width: 60%;
+  margin-right: 24px;
+}
